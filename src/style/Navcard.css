@@ -1,0 +1,23 @@
+.Navcard{
+    width: 10vmax;
+    text-align: center;
+    position: cursor;
+    transition: all 0.5s  ;
+    background-color: white;
+}
+.Navcard:hover{
+    transform: translateY(-0.4vmax);
+    box-shadow: 0px 6px 15px rgba(53, 53, 53, 0.363);
+}
+
+.Navcard img{
+    width: 10vmax;
+}
+.Navcard p{
+    margin: 0;
+    
+}
+.Navcard span{
+    color: orangered;
+    
+}

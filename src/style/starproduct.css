@@ -1,0 +1,14 @@
+.star{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1vmax auto;
+}
+.star div:last-child{
+    display: flex;
+    flex-wrap: wrap;
+    width: 46%;
+}
+.star img:hover{
+    box-shadow: 6px 6px 15px rgba(15,15,15,0.363);
+}

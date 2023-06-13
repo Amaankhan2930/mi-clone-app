@@ -1,0 +1,21 @@
+.headersection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.headersection div{
+    background-color: rgba(39,39,39,0.274);
+    height: 1px;
+    width: 30vw;
+  
+}
+
+.headersection p{
+    margin:2vmax;
+    font-family:Calibri,'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    font-size: 2.5vmax;
+    color: rgba(77,77,77);
+}

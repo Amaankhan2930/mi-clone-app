@@ -1,0 +1,7 @@
+.navoptions{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: whitesmoke;
+    padding: 2vmax;
+    z-index: 1000;
+}

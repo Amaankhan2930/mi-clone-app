@@ -1,0 +1,36 @@
+.Hotitemcard {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 31%;
+    background-color: white;
+    justify-content: center;
+    margin: 0.7vmax;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.Hotitemcard:hover {
+    transform: translateY(-0.4vmax);
+    box-shadow: 0px 6px 15px rgba(53, 53, 53, 0.363);
+}
+
+.Hotitemcard>img {
+    width: 70%;
+    justify-content: center;
+    background-color: white;
+}
+
+.Hotitemcard p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgba(85, 83, 83);
+    background-color: white;
+}
+
+.Hotitemcard span {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: orangered;
+    margin: -1vmax 0 1vmax 0;
+    background-color: white;
+
+}

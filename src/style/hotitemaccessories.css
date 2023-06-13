@@ -1,0 +1,23 @@
+.hotaccessories{
+    display: flex;
+   
+    width: 90vw;
+    margin: auto;
+}
+
+.firstimage{
+cursor: pointer;
+    transition: all 0.5s;
+    background-color: whitesmoke;
+}
+
+.firstimage:hover{
+    transform: translateY(-0.4vmax);
+    box-shadow: 0px 6px 15px rgba(53, 53, 53, 0.363);
+}
+
+.lastimage{
+    display: flex;
+    flex-wrap:wrap;
+    background-color: whitesmoke;
+}
